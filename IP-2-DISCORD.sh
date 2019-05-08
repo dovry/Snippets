@@ -1,5 +1,8 @@
  #!/bin/sh
 
+# set this in cron
+# 0 * * * * ./path/to/script.sh
+
 set -e
 
 # 172 addresses are Docker addresses too, so you might want to change the last
