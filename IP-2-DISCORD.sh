@@ -1,7 +1,7 @@
  #!/bin/sh
 
 # set this in cron
-# 0 * * * * ./path/to/script.sh
+# 0 * * * * sh /path/to/script.sh
 
 set -e
 
