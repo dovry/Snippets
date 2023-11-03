@@ -1,0 +1,5 @@
+# Convert all .webp in current dir to jpg
+# requires "webp" and "parallel" installed
+# sudo apt install webp parallel
+
+parallel --eta dwebp {} -o {.}.jpg ::: *.webp
